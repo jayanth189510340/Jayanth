@@ -1,0 +1,95 @@
+<html>
+<head>
+<title>APPLICATION FORM</title>
+</head>
+<body>
+<form action="https://codinghub.co.in/">
+<fieldset>
+<legend align="center"><h1><i>APLLICATION FORM</i></h1></legend>
+<table align=center bgcolor=blue border=1>
+<tr>
+<td><label for=fname>First name</label></td>
+<td><input type=text name=fname></td>
+</tr>
+<tr>
+<td><label for=lname>Last name</label></td>
+<td><input type=text name=lname placeholder="va"></td>
+</tr>
+<tr>
+<td><label for=email>Enter EmailId </label></td>
+<td><input type=email name=email></td>
+</tr>
+<tr>
+<td>choose your gender</td>
+<td><input type="radio" name="gender">
+<label for="gender">male</label></td></tr>
+<tr>
+<td>
+</td>
+<td><input type="radio" name="gender" checked>
+<label for="gender">female</label></td>
+</tr>
+<tr>
+<td><label for="number">Mobile Number</label>
+<select>
+<option value="+91" selected>+91</option>
+<option value="+92" selected>+92</option>
+<option value="+93" selected>+93</option>
+<option value="+94" selected>+94</option>
+</select>
+</td>
+<td><input type="tel" name="number" pattern={0-9}{10}>
+
+College:<input list="College Names">
+<datalist id="College Names">
+<option value="IARE">
+<option value="JNTUH">
+<option value="VJIT">
+<option value="KU">
+</datalist>
+
+Address:<input type="text">
+<textarea placeholder="comments" style="resize:none" rows=1></textarea></td>
+</tr> 
+
+<tr>
+<td></p>choose your skills</p></td>
+<td><input type="checkbox" name=skills checked>
+<label for=skills>java</labe></td>
+</tr>
+<tr>
+<td>
+</td>
+<td><input type=checkbox name=skills>
+<label for=skills>SQL</label></td>
+</tr>
+<tr>
+<td>
+</td>
+<td><input type="checkbox" name=skills>
+<label for=skills>HTML CSS</label></td>
+</tr>
+<tr>
+<td>
+</td>
+<td><input type=checkbox name=skills>
+<label for=skills>Spring boot</label></td>
+</tr>
+<tr>
+
+<td><label for=exp>Experience(2 to 10)</label></td>
+<td><input type=number name=exp min=2 max=10></td></tr>
+<tr>
+<td><label for=bday>choose your DOB</label></td>
+<td><input type=date name=bday></td>
+</tr> 
+<tr>
+<td><label for=Resume>Upload your Resume</label></td>
+<td><input type=file name=resume></td>
+</tr>
+<tr>
+<th colspan=2><input type="submit" value="APPLY">
+<input type="reset"></th>
+</tr> 
+</body>
+</html>
